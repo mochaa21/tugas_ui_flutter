@@ -45,20 +45,20 @@ class ChatDetail extends StatelessWidget {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: const Text("Halo! Gimana progres tugas Flutter-nya?"),
+                    child: const Text("PR: Pemrograman Mobile"),
                   ),
                 ),
-                // Chat dari kita
+                
                 Align(
                   alignment: Alignment.centerRight,
                   child: Container(
                     padding: const EdgeInsets.all(10),
                     margin: const EdgeInsets.only(bottom: 10),
                     decoration: BoxDecoration(
-                      color: const Color(0xFFDCF8C6), // Warna hijau chat WA
+                      color: const Color(0xFFDCF8C6), 
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: const Text("Aman, ini lagi dirakit UI-nya 🚀"),
+                    child: const Text("Aman"),
                   ),
                 ),
               ],

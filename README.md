@@ -1,4 +1,4 @@
-# Tugas UI/UX Flutter — [NAMA APLIKASI YANG KAMU PILIH]
+# Tugas UI/UX Flutter — WhatsApp
 
 ## Identitas
 - **Nama:** Mochammad Syahid Fariz Abqari
@@ -17,10 +17,11 @@ Proyek ini mereplikasi tampilan antarmuka (UI) dari aplikasi [NAMA APLIKASI]. Ha
 - **CircleAvatar** — Menampilkan foto profil pengguna.
 
 ## Screenshot
-![Hasil UI](screenshot/hasil_ui.png)
+![Hasil UI](screenshot/hasil_ui_1.png)
+![Hasil UI](screenshot/hasil_ui_2.png)
 
 ## Wireframe
-![Wireframe](wireframe/wireframe_foto.jpg)
+![Wireframe](wireframe/wireframe_foto.png)
 
 ## Kesulitan yang Ditemui
-[KOSONGKAN DULU, NANTI KITA ISI SETELAH NGODING SELESAI]
+- Kesulitan saat memahami struktur List dan penempatan icon, namun teratasi dengan memecah widget menjadi komponen terpisah

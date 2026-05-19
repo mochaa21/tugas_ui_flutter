@@ -31,7 +31,7 @@ class ChatTile extends StatelessWidget {
       subtitle: Text(
         message,
         maxLines: 1,
-        overflow: TextOverflow.ellipsis, // Bikin teks terpotong jadi "..." kalau kepanjangan
+        overflow: TextOverflow.ellipsis,
         style: const TextStyle(color: Colors.grey),
       ),
       trailing: Column(

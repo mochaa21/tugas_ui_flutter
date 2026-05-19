@@ -8,36 +8,36 @@ class WhatsappHome extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<Map<String, dynamic>> chatData = [
       {
-        "name": "Dosen Pemrograman",
-        "message": "Tugas UI/UX jangan lupa dikumpulkan minggu depan ya.",
+        "name": "AbyLeo",
+        "message": "PR: Pemrograman Mobile",
         "time": "14:30",
         "avatar": "https://i.pravatar.cc/150?img=11",
         "unread": 2,
       },
       {
-        "name": "Budi Santoso",
+        "name": "Hary",
         "message": "Bro, udah kelar tugas Flutter?",
         "time": "12:15",
         "avatar": "https://i.pravatar.cc/150?img=12",
         "unread": 1,
       },
       {
-        "name": "Grup Praktikum",
-        "message": "Sari: Link notionnya error nih.",
+        "name": "Someone",
+        "message": "omke gams!",
         "time": "Kemarin",
         "avatar": "https://i.pravatar.cc/150?img=13",
         "unread": 0,
       },
       {
-        "name": "Siti Maimunah",
-        "message": "Oke, siap!",
+        "name": "Leona",
+        "message": "okee",
         "time": "Kemarin",
         "avatar": "https://i.pravatar.cc/150?img=9",
         "unread": 0,
       },
     ];
 
-    // Tambahkan DefaultTabController untuk membuat TabBar
+    
     return DefaultTabController(
       length: 3,
       child: Scaffold(
