@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../pages/chat_detail.dart';
 
 class ChatTile extends StatelessWidget {
   final String name;
@@ -64,7 +65,15 @@ class ChatTile extends StatelessWidget {
         ],
       ),
       onTap: () {
-        // Logika saat chat ditekan (kosongkan saja untuk tugas UI)
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => ChatDetail(
+              name: name,
+              avatarUrl: avatarUrl,
+            ),
+          ),
+        );
       },
     );
   }
