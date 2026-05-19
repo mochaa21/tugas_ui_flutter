@@ -1,17 +1,26 @@
-# tugas_ui_flutter
+# Tugas UI/UX Flutter — [NAMA APLIKASI YANG KAMU PILIH]
 
-A new Flutter project.
+## Identitas
+- **Nama:** Mochammad Syahid Fariz Abqari
+- **NIM:** [ISI_NIM_KAMU_DISINI]
+- **Pilihan:** A
 
-## Getting Started
+## Deskripsi Singkat
+Proyek ini mereplikasi tampilan antarmuka (UI) dari aplikasi [NAMA APLIKASI]. Halaman utama yang dibuat berfokus pada struktur layout menggunakan widget dasar Flutter tanpa fungsi logika backend.
 
-This project is a starting point for a Flutter application.
+## Widget yang Digunakan
+- **Scaffold** — Sebagai kerangka dasar halaman aplikasi.
+- **AppBar** — Menampilkan navigasi atas dan judul aplikasi.
+- **ListView / GridView** — Membuat daftar elemen yang bisa di-scroll.
+- **Container / Padding** — Mengatur jarak dan ruang antar elemen.
+- **Row / Column** — Menyusun elemen secara horizontal dan vertikal.
+- **CircleAvatar** — Menampilkan foto profil pengguna.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshot
+![Hasil UI](screenshot/hasil_ui.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Wireframe
+![Wireframe](wireframe/wireframe_foto.jpg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Kesulitan yang Ditemui
+[KOSONGKAN DULU, NANTI KITA ISI SETELAH NGODING SELESAI]
