@@ -2,7 +2,7 @@
 
 ## Identitas
 - **Nama:** Mochammad Syahid Fariz Abqari
-- **NIM:** [ISI_NIM_KAMU_DISINI]
+- **NIM:** 2455201110009
 - **Pilihan:** A
 
 ## Deskripsi Singkat

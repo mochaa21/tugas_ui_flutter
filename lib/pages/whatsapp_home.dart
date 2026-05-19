@@ -6,7 +6,6 @@ class WhatsappHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Data dummy untuk memunculkan daftar chat
     final List<Map<String, dynamic>> chatData = [
       {
         "name": "Dosen Pemrograman",
@@ -38,32 +37,55 @@ class WhatsappHome extends StatelessWidget {
       },
     ];
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('WhatsApp', style: TextStyle(fontWeight: FontWeight.bold)),
-        actions: [
-          IconButton(icon: const Icon(Icons.camera_alt_outlined), onPressed: () {}),
-          IconButton(icon: const Icon(Icons.search), onPressed: () {}),
-          IconButton(icon: const Icon(Icons.more_vert), onPressed: () {}),
-        ],
-      ),
-      body: ListView.builder(
-        itemCount: chatData.length,
-        itemBuilder: (context, index) {
-          final chat = chatData[index];
-          return ChatTile(
-            name: chat['name'],
-            message: chat['message'],
-            time: chat['time'],
-            avatarUrl: chat['avatar'],
-            unreadCount: chat['unread'],
-          );
-        },
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        backgroundColor: const Color(0xFF25D366),
-        child: const Icon(Icons.message, color: Colors.white),
+    // Tambahkan DefaultTabController untuk membuat TabBar
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        appBar: AppBar(
+          title: const Text('WhatsApp', style: TextStyle(fontWeight: FontWeight.bold)),
+          actions: [
+            IconButton(icon: const Icon(Icons.camera_alt_outlined), onPressed: () {}),
+            IconButton(icon: const Icon(Icons.search), onPressed: () {}),
+            IconButton(icon: const Icon(Icons.more_vert), onPressed: () {}),
+          ],
+          bottom: const TabBar(
+            indicatorColor: Colors.white,
+            labelColor: Colors.white,
+            unselectedLabelColor: Colors.white70,
+            tabs: [
+              Tab(text: "CHATS"),
+              Tab(text: "STATUS"),
+              Tab(text: "CALLS"),
+            ],
+          ),
+        ),
+        body: TabBarView(
+          children: [
+            // Tab 1: Daftar Chat
+            ListView.builder(
+              itemCount: chatData.length,
+              itemBuilder: (context, index) {
+                final chat = chatData[index];
+                return ChatTile(
+                  name: chat['name'],
+                  message: chat['message'],
+                  time: chat['time'],
+                  avatarUrl: chat['avatar'],
+                  unreadCount: chat['unread'],
+                );
+              },
+            ),
+            // Tab 2: Status (Kosong)
+            const Center(child: Text("Halaman Status")),
+            // Tab 3: Calls (Kosong)
+            const Center(child: Text("Halaman Panggilan")),
+          ],
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          backgroundColor: const Color(0xFF25D366),
+          child: const Icon(Icons.message, color: Colors.white),
+        ),
       ),
     );
   }
