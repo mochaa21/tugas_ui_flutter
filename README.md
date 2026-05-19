@@ -6,7 +6,7 @@
 - **Pilihan:** A
 
 ## Deskripsi Singkat
-Proyek ini mereplikasi tampilan antarmuka (UI) dari aplikasi [NAMA APLIKASI]. Halaman utama yang dibuat berfokus pada struktur layout menggunakan widget dasar Flutter tanpa fungsi logika backend.
+Proyek ini mereplikasi tampilan antarmuka (UI) dari aplikasi WhatsApp. Halaman utama yang dibuat berfokus pada struktur layout menggunakan widget dasar Flutter tanpa fungsi logika backend.
 
 ## Widget yang Digunakan
 - **Scaffold** — Sebagai kerangka dasar halaman aplikasi.
