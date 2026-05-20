@@ -25,3 +25,5 @@ Proyek ini mereplikasi tampilan antarmuka (UI) dari aplikasi WhatsApp. Halaman u
 
 ## Kesulitan yang Ditemui
 - Kesulitan saat memahami struktur List dan penempatan icon, namun teratasi dengan memecah widget menjadi komponen terpisah
+
+## test text...
